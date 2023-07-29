@@ -1,0 +1,16 @@
+{
+  "image": "image url",
+  "name": "Product Name",
+  "category": "CPU",
+  "inStock": false,
+  "price": "$800",
+  "desc": "Product description",
+  "features": "Key Features (like Brand, Model, Specification, Port, Type, Resolution, Voltage, etc)",
+  "rating": "Average Rating (Out of 5 Stars)",
+  "reviews": [
+    {
+      "rating": "Out of 5",
+      "content": "review text"
+    }
+  ]
+}

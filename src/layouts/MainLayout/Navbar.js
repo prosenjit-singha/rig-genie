@@ -1,6 +1,7 @@
 import Logo from "@/components/Logo";
+import { categories } from "@/constants/category.const";
 import React from "react";
-// import Link from "next/link";
+import Link from "next/link";
 
 function Navbar() {
   return (
@@ -14,12 +15,13 @@ function Navbar() {
             <details>
               <summary>Category</summary>
               <ul className="!mt-0 bg-base-100">
-                <li>
-                  <a>Link 1</a>
-                </li>
-                <li>
-                  <a>Link 2</a>
-                </li>
+                {categories.map((category) => (
+                  <li key={category}>
+                    <Link href={`/products?category=${category}`}>
+                      {category}
+                    </Link>
+                  </li>
+                ))}
               </ul>
             </details>
           </li>
