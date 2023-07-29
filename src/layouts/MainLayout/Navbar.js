@@ -14,7 +14,7 @@ function Navbar() {
           <li>
             <details>
               <summary>Category</summary>
-              <ul className="!mt-0 bg-base-100">
+              <ul className="!mt-0 bg-base-100 z-10">
                 {categories.map((category) => (
                   <li key={category}>
                     <Link href={`/products?category=${category}`}>

@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const categories = [
   ["cpu.png", "CPU/Processor"],
@@ -23,7 +24,8 @@ function FeatureCategories() {
 
       <div className="flex flex-wrap justify-center gap-6">
         {categories.map(([path, name]) => (
-          <div
+          <Link
+            href={`/products/${name}`}
             key={name}
             className="flex flex-col items-center justify-between gap-1 p-4 bg-slate-100 border border-green-700 min-w-[125px] rounded-md cursor-pointer hover:shadow-lg"
           >
@@ -34,7 +36,7 @@ function FeatureCategories() {
               alt={name}
             />
             <h3 className="text-lg font-medium">{name}</h3>
-          </div>
+          </Link>
         ))}
       </div>
     </div>

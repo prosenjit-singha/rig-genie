@@ -1,4 +1,4 @@
-import ProductCard from "@/components/shared/ProductCard";
+import ProductCard from "@/components/ui/home/ProductCard";
 import React from "react";
 
 function FeatureProducts({ products }) {

@@ -7,7 +7,7 @@ function ProductCard({ product }) {
     <Link
       className="flex flex-row gap-1 shadow-xl card card-compact bg-base-100"
       role="link"
-      href={`/products/${product._id}`}
+      href={`/product/${product._id}`}
     >
       <figure>
         <Image
