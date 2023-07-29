@@ -19,3 +19,7 @@ export const filterableFields = [
   "minPrice",
   "maxPrice",
 ];
+
+const ProductConst = { categories, searchableFields, filterableFields };
+
+export default ProductConst;
