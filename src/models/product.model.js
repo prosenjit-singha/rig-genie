@@ -1,4 +1,4 @@
-import { categories } from "@/constants/category.const";
+import { categories } from "@/constants/products.const";
 import { Schema, model, models } from "mongoose";
 
 const ProductSchema = new Schema({

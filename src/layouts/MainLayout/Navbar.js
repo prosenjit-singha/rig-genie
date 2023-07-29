@@ -1,5 +1,5 @@
 import Logo from "@/components/Logo";
-import { categories } from "@/constants/category.const";
+import { categories } from "@/constants/products.const";
 import React from "react";
 import Link from "next/link";
 

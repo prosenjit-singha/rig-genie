@@ -10,3 +10,12 @@ export const categories = [
   "Keyboard",
   "Others",
 ];
+
+export const searchableFields = ["name", "category"];
+
+export const filterableFields = [
+  "searchTerm",
+  "category",
+  "minPrice",
+  "maxPrice",
+];
