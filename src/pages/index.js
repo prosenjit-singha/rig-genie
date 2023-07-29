@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import HeroSection from "@/components/ui/home/HeroSection";
 import FeatureProducts from "@/components/ui/home/FeatureProducts";
 import { api } from "@/helpers/api.helper";
+import FeatureCategories from "@/components/ui/home/FeatureCategories";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function Home({ products }) {
 
       <HeroSection />
       <FeatureProducts products={products} />
+      <FeatureCategories />
     </>
   );
 }
