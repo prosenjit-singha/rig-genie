@@ -1,7 +1,11 @@
+import config from "@/config";
+import axios from "axios";
+
 /**
  * Context Type
  * @typedef {object} Context
  * @property {any} data
+ * @property {any} meta
  * @property {string} message
  * @property {number} status
  * @property {{[key: string]: string} | string | null} error
@@ -18,6 +22,7 @@ export const sendResponse = (res, context) => {
     message = "Success",
     data = null,
     error = null,
+    meta,
   } = context;
 
   res.status(status).json({
@@ -25,5 +30,10 @@ export const sendResponse = (res, context) => {
     status,
     message,
     data,
+    meta,
   });
 };
+
+export const api = axios.create({
+  baseURL: config.base_url,
+});

@@ -2,11 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: [
-      "https://images.evga.com",
-      "https://www.startech.com.bd",
-      "https://m.media-amazon.com",
-    ],
+    domains: ["images.evga.com", "www.startech.com.bd", "m.media-amazon.com"],
   },
 };
 

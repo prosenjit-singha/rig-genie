@@ -19,11 +19,12 @@ export default async function handler(req, res) {
     const filters = pick(req.query, ProductConst.filterableFields);
     const paginationOptions = pick(req.query, PaginationConst.fields);
 
-    const data = await getAllProducts(filters, paginationOptions);
+    const { data, meta } = await getAllProducts(filters, paginationOptions);
 
     sendResponse(res, {
       message: "Products list retrieved successfully",
       data,
+      meta,
     });
   }
 }
