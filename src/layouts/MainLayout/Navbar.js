@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function Navbar() {
   return (
-    <header className="px-4 navbar bg-slate-200">
+    <header className="px-8 navbar bg-slate-200">
       <div className="flex-1">
         <Logo />
       </div>

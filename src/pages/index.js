@@ -1,6 +1,7 @@
 import Head from "next/head";
 import MainLayout from "@/layouts/MainLayout";
 import { Inter } from "next/font/google";
+import HeroSection from "@/components/ui/HeroSection";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,9 +15,8 @@ export default function Home() {
           content="This website will guide you to build your desired pc."
         />
       </Head>
-      <main className={`${inter.className}`}>
-        <button className="btn btn-sm btn-outline btn-primary">Click Me</button>
-      </main>
+
+      <HeroSection />
     </>
   );
 }
