@@ -1,5 +1,5 @@
 import React from "react";
-import animationData from "../../../public/assets/lottie/person-computer.json";
+import animationData from "../../../../public/assets/lottie/person-computer.json";
 import Lottie from "lottie-react";
 
 function HeroSection() {
