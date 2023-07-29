@@ -1,20 +1,19 @@
+import Logo from "@/components/Logo";
 import React from "react";
+// import Link from "next/link";
 
 function Navbar() {
   return (
-    <header class="navbar bg-base-100">
-      <div class="flex-1">
-        <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+    <header className="px-4 navbar bg-slate-200">
+      <div className="flex-1">
+        <Logo />
       </div>
-      <nav class="flex-none">
-        <ul class="menu menu-horizontal px-1">
-          <li>
-            <a>Link</a>
-          </li>
+      <nav className="flex-none">
+        <ul className="items-center gap-4 p-0 px-1 menu menu-horizontal">
           <li>
             <details>
-              <summary>Parent</summary>
-              <ul class="p-2 bg-base-100">
+              <summary>Category</summary>
+              <ul className="!mt-0 bg-base-100">
                 <li>
                   <a>Link 1</a>
                 </li>
@@ -23,6 +22,14 @@ function Navbar() {
                 </li>
               </ul>
             </details>
+          </li>
+          <li>
+            <button className="btn btn-outline btn-primary btn-sm">
+              Login/Register
+            </button>
+          </li>
+          <li>
+            <button className="btn btn-sm btn-error">Logout</button>
           </li>
         </ul>
       </nav>
