@@ -5,6 +5,7 @@ import MainLayout from "@/layouts/MainLayout";
 import AllProductsLayout from "@/layouts/AllProductsLayout";
 import Link from "next/link";
 import ProductCard from "@/components/ui/products/ProductCard";
+import config from "@/config";
 
 function Products({ products }) {
   return (
@@ -40,7 +41,7 @@ export const getStaticPaths = () => {
 };
 
 export async function getStaticProps(context) {
-  if (typeof window === "undefined") {
+  if (typeof window === "undefined" && config.node_env !== "production") {
     return {
       props: {
         products: [],
