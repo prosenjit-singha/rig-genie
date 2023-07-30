@@ -90,8 +90,6 @@ export async function getStaticPaths() {
     params: { id: product._id },
   }));
 
-  console.log(paths);
-
   return { paths, fallback: "blocking" };
 }
 

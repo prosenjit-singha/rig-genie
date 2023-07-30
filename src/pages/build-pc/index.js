@@ -30,7 +30,7 @@ function BuildPC() {
   };
 
   return (
-    <section className="flex flex-col px-8 py-4 max-w-[800px] mx-auto">
+    <section className="flex flex-col px-8 py-4 max-w-[800px] mx-auto min-w-[205px]">
       <h1 className="mb-4 text-2xl font-bold text-center">Build Your PC</h1>
 
       {/* List */}
