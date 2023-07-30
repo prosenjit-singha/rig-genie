@@ -30,7 +30,7 @@ function BuildPC() {
   };
 
   return (
-    <section className="flex flex-col px-8 py-4 max-w-[800px] mx-auto min-w-[205px]">
+    <section className="flex flex-col px-8 py-4 max-w-[800px] mx-auto">
       <h1 className="mb-4 text-2xl font-bold text-center">Build Your PC</h1>
 
       {/* List */}
@@ -38,7 +38,7 @@ function BuildPC() {
         {categories.map((category) => (
           <div
             key={category}
-            className="flex justify-between gap-4 p-4 border rounded-lg shadow-lg"
+            className="flex justify-between gap-4 p-4 border rounded-lg shadow-lg min-w-[200px]"
           >
             <div className="flex-grow">
               <h3 className="font-bold">{category}</h3>
