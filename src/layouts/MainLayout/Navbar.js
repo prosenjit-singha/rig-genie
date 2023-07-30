@@ -2,8 +2,13 @@ import Logo from "@/components/Logo";
 import { categories } from "@/constants/products.const";
 import React from "react";
 import Link from "next/link";
+import { useSession, signIn, signOut } from "next-auth/react";
 
 function Navbar() {
+  const { data: session } = useSession();
+
+  const isUserExist = !!session?.user?.email;
+
   return (
     <header className="px-8 navbar bg-slate-200">
       <div className="flex-1">
@@ -26,13 +31,24 @@ function Navbar() {
               </ul>
             </details>
           </li>
-          <li>
-            <button className="btn btn-outline btn-primary btn-sm">
+          <li className={isUserExist ? "" : "hidden"}>
+            <Link href="/build-pc" className="btn btn-sm btn-primary">
+              Build PC
+            </Link>
+          </li>
+
+          <li className={isUserExist ? "hidden" : ""}>
+            <button
+              onClick={() => signIn()}
+              className="btn btn-outline btn-primary btn-sm"
+            >
               Login/Register
             </button>
           </li>
-          <li>
-            <button className="btn btn-sm btn-error">Logout</button>
+          <li className={isUserExist ? "" : "hidden"}>
+            <button onClick={() => signOut()} className="btn btn-sm btn-error">
+              Logout
+            </button>
           </li>
         </ul>
       </nav>
