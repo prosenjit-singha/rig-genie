@@ -83,15 +83,19 @@ Product.getLayout = function (page) {
   return <MainLayout>{page}</MainLayout>;
 };
 
-export async function getServerSideProps(context) {
-  if (typeof window === undefined) {
-    return {
-      props: {
-        product: null,
-      },
-    };
-  }
+export async function getStaticPaths() {
+  const res = await api.get("/products?limit=100");
 
+  const paths = res.data.data.map((product) => ({
+    params: { id: product._id },
+  }));
+
+  console.log(paths);
+
+  return { paths, fallback: "blocking" };
+}
+
+export async function getStaticProps(context) {
   const { id } = context.params;
   const res = await api.get("/products/" + id);
 
