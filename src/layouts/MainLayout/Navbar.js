@@ -15,11 +15,12 @@ function Navbar() {
             <details>
               <summary>Category</summary>
               <ul className="!mt-0 bg-base-100 z-10">
+                <li>
+                  <Link href="/products/All">All</Link>
+                </li>
                 {categories.map((category) => (
                   <li key={category}>
-                    <Link href={`/products?category=${category}`}>
-                      {category}
-                    </Link>
+                    <Link href={`/products/${category}`}>{category}</Link>
                   </li>
                 ))}
               </ul>
