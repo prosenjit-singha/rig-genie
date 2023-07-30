@@ -38,7 +38,7 @@ function BuildPC() {
         {categories.map((category) => (
           <div
             key={category}
-            className="flex justify-between gap-4 p-4 border rounded-lg shadow-lg min-w-[350px]"
+            className="flex justify-between gap-4 p-4 border rounded-lg shadow-lg min-w-[395px]"
           >
             <div className="flex-grow">
               <h3 className="font-bold">{category}</h3>
