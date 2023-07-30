@@ -3,7 +3,6 @@ import { api } from "@/helpers/api.helper";
 import React from "react";
 import MainLayout from "@/layouts/MainLayout";
 import ProductCard from "@/components/ui/products/ProductCard";
-import config from "@/config";
 
 function ChooseProduct({ products }) {
   return (
@@ -35,7 +34,7 @@ export const getStaticPaths = () => {
 };
 
 export async function getStaticProps(context) {
-  if (typeof window === "undefined" && config.node_env !== "production") {
+  if (typeof window === "undefined") {
     return {
       props: {
         products: [],

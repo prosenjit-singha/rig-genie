@@ -1,11 +1,9 @@
 import Head from "next/head";
 import MainLayout from "@/layouts/MainLayout";
-import { Inter } from "next/font/google";
 import HeroSection from "@/components/ui/home/HeroSection";
 import FeatureProducts from "@/components/ui/home/FeatureProducts";
 import { api } from "@/helpers/api.helper";
 import FeatureCategories from "@/components/ui/home/FeatureCategories";
-import config from "@/config";
 
 export default function Home({ products }) {
   return (
@@ -30,14 +28,6 @@ Home.getLayout = function (page) {
 };
 
 export const getStaticProps = async () => {
-  if (typeof window === "undefined" && config.node_env !== "production") {
-    return {
-      props: {
-        products: [],
-      },
-    };
-  }
-
   const res = await api.get("/products?limit=6");
 
   return {
