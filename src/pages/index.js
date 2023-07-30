@@ -29,7 +29,7 @@ Home.getLayout = function (page) {
 };
 
 export const getStaticProps = async () => {
-  if (typeof window === undefined) {
+  if (typeof window === "undefined") {
     return {
       props: {
         products: [],

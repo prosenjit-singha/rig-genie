@@ -40,7 +40,7 @@ export const getStaticPaths = () => {
 };
 
 export async function getStaticProps(context) {
-  if (typeof window === undefined) {
+  if (typeof window === "undefined") {
     return {
       props: {
         products: [],
