@@ -2,7 +2,12 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-function ProductCard({ product }) {
+function ProductCard({ product, builder }) {
+  const handleAddToBuilder = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+  };
+
   return (
     <Link
       className="flex gap-1 shadow-xl card card-compact bg-base-100 hover:shadow-xl hover:shadow-green-600/50"
@@ -37,6 +42,14 @@ function ProductCard({ product }) {
             <span>Rating: {product.rating}</span>
             <span>Price: ${product.price}</span>
           </p>
+        </div>
+        <div className={builder ? "" : "hidden"}>
+          <button
+            onClick={handleAddToBuilder}
+            className="btn btn-sm btn-primary"
+          >
+            Add To Builder
+          </button>
         </div>
       </div>
     </Link>
