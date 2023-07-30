@@ -40,6 +40,14 @@ export const getStaticPaths = () => {
 };
 
 export async function getStaticProps(context) {
+  if (typeof window === undefined) {
+    return {
+      props: {
+        products: [],
+      },
+    };
+  }
+
   const { category } = context.params;
   const res = await api.get(
     `/products${category === "All" ? "" : `?category=${category}`}`

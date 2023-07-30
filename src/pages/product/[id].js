@@ -84,8 +84,15 @@ Product.getLayout = function (page) {
 };
 
 export async function getServerSideProps(context) {
-  const { id } = context.params;
+  if (typeof window === undefined) {
+    return {
+      props: {
+        product: null,
+      },
+    };
+  }
 
+  const { id } = context.params;
   const res = await api.get("/products/" + id);
 
   return {
