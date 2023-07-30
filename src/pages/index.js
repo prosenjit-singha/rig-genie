@@ -28,6 +28,14 @@ Home.getLayout = function (page) {
 };
 
 export const getStaticProps = async () => {
+  // if (typeof window === "undefined") {
+  //   return {
+  //     props: {
+  //       products: [],
+  //     },
+  //   };
+  // }
+
   const res = await api.get("/products?limit=6");
 
   return {
