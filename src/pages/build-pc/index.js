@@ -1,13 +1,28 @@
 import MainLayout from "@/layouts/MainLayout";
 import Link from "next/link";
 import React from "react";
+import { useSelector } from "react-redux";
 
 const categories = ["CPU", "Motherboard", "RAM", "PSU", "Storage", "Monitor"];
 
+const allSelected = (obj, minSelectValue) => {
+  let count = 0;
+  for (let key in obj) {
+    if (obj[key]) {
+      count++;
+    }
+  }
+  return count === minSelectValue;
+};
+
 function BuildPC() {
+  const data = useSelector((state) => state.pcBuilder);
+
+  const showBuild = allSelected(data, 6);
+
   return (
-    <section className="px-8 py-4">
-      <h1 className="text-2xl font-bold text-center">Build Your PC</h1>
+    <section className="flex flex-col px-8 py-4">
+      <h1 className="mb-4 text-2xl font-bold text-center">Build Your PC</h1>
 
       {/* List */}
       <div className="flex flex-col gap-3">
@@ -30,6 +45,14 @@ function BuildPC() {
           </div>
         ))}
       </div>
+
+      <button
+        className={
+          showBuild ? "btn btn-primary min-w-[100px] mx-auto my-4 " : "hidden"
+        }
+      >
+        BUILD
+      </button>
     </section>
   );
 }

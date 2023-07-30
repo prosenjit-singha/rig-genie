@@ -1,11 +1,19 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useDispatch } from "react-redux";
+import { PCBuilderActions } from "@/redux/features/pcBuilder.slice";
+import { useRouter } from "next/navigation";
 
 function ProductCard({ product, builder }) {
+  const dispatch = useDispatch();
+  const router = useRouter();
+
   const handleAddToBuilder = (e) => {
     e.preventDefault();
     e.stopPropagation();
+    dispatch(PCBuilderActions.addToBuilder(product));
+    router.push("/build-pc");
   };
 
   return (
