@@ -8,6 +8,7 @@ export const categories = [
   "GPU",
   "Mouse",
   "Keyboard",
+  "Casing",
   "Others",
 ];
 

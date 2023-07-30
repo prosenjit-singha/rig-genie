@@ -1,722 +1,101 @@
 [
   {
-    "image": "https://m.media-amazon.com/images/I/81H+qksV+vL._AC_UF894,1000_QL80_.jpg",
-    "name": "NVIDIA GeForce RTX 3080",
-    "category": "GPU",
-    "inStock": 5,
-    "price": 699.99,
-    "desc": "The NVIDIA GeForce RTX 3080 is a high-end gaming graphics card with ray tracing capabilities.",
-    "features": "Brand: NVIDIA, VRAM: 10GB GDDR6X, CUDA Cores: 8704",
-    "rating": 4.9,
-    "reviews": [
-      {
-        "rating": 4.8,
-        "content": "Exceptional gaming performance at 4K resolution."
-      },
-      {
-        "rating": 5.0,
-        "content": "Ray tracing enhances visuals in supported games."
-      }
-    ]
-  },
-  {
-    "image": "https://m.media-amazon.com/images/I/71P4+eYukZL._AC_UF894,1000_QL80_.jpg",
-    "name": "AMD Radeon RX 6800 XT",
-    "category": "GPU",
-    "inStock": 8,
-    "price": 649.99,
-    "desc": "The AMD Radeon RX 6800 XT is a high-performance graphics card designed for gaming and content creation.",
-    "features": "Brand: AMD, VRAM: 16GB GDDR6, Stream Processors: 4608",
-    "rating": 4.8,
-    "reviews": [
-      {
-        "rating": 4.7,
-        "content": "Great value for high-resolution gaming."
-      },
-      {
-        "rating": 4.9,
-        "content": "Handles rendering tasks efficiently in creative software."
-      }
-    ]
-  },
-  {
-    "image": "https://m.media-amazon.com/images/I/81B2n4sPkXL._AC_UF1000,1000_QL80_.jpg",
-    "name": "EVGA GeForce GTX 1660 Super",
-    "category": "GPU",
-    "inStock": 12,
-    "price": 249.99,
-    "desc": "The EVGA GeForce GTX 1660 Super is a budget-friendly graphics card ideal for 1080p gaming.",
-    "features": "Brand: EVGA, VRAM: 6GB GDDR6, CUDA Cores: 1408",
-    "rating": 4.5,
-    "reviews": [
-      {
-        "rating": 4.4,
-        "content": "Smooth performance in most modern games at 1080p."
-      },
-      {
-        "rating": 4.6,
-        "content": "Quiet and power-efficient under load."
-      }
-    ]
-  },
-
-  {
-    "image": "https://www.startech.com.bd/image/cache/catalog/processor/intel/9700k/i7-9700k-2-500x500.jpg",
-    "name": "Intel Core i7-9700K",
-    "category": "CPU/Processor",
+    "image": "https://m.media-amazon.com/images/I/51u7VExej0L._AC_UF1000,1000_QL80_.jpg",
+    "name": "NZXT H710 Mid-Tower ATX Case",
+    "category": "Casing",
     "inStock": 10,
-    "price": 329.99,
-    "desc": "The Intel Core i7-9700K is a high-performance 8-core processor.",
-    "features": "Brand: Intel, Cores: 8, Threads: 8, Clock Speed: 3.6 GHz (4.9 GHz Max Turbo), Socket: LGA 1151",
-    "rating": 4.8,
-    "reviews": [
-      {
-        "rating": 4.5,
-        "content": "Great processor for gaming and productivity tasks!"
-      },
-      {
-        "rating": 5.0,
-        "content": "Super fast and reliable CPU."
-      }
-    ]
-  },
-  {
-    "image": "https://www.startech.com.bd/image/cache/catalog/processor/amd/ryzen-5-3600x/ryzen-5-3600-500x500.jpg",
-    "name": "AMD Ryzen 5 3600X",
-    "category": "CPU/Processor",
-    "inStock": 15,
-    "price": 249.99,
-    "desc": "The AMD Ryzen 5 3600X is a powerful 6-core processor for gaming and content creation.",
-    "features": "Brand: AMD, Cores: 6, Threads: 12, Clock Speed: 3.8 GHz (4.4 GHz Max Boost), Socket: AM4",
-    "rating": 4.7,
-    "reviews": [
-      {
-        "rating": 4.0,
-        "content": "Excellent value for money and great multitasking performance."
-      },
-      {
-        "rating": 5.0,
-        "content": "Runs cool even under heavy loads."
-      }
-    ]
-  },
-  {
-    "image": "https://www.startech.com.bd/image/cache/catalog/processor/Intel/9900k/intel-core-i9-9900k-500x500.jpg",
-    "name": "Intel Core i9-9900K",
-    "category": "CPU/Processor",
-    "inStock": 0,
-    "price": 499.99,
-    "desc": "The Intel Core i9-9900K is a top-of-the-line 8-core processor for enthusiasts.",
-    "features": "Brand: Intel, Cores: 8, Threads: 16, Clock Speed: 3.6 GHz (5.0 GHz Max Turbo), Socket: LGA 1151",
-    "rating": 4.9,
-    "reviews": [
-      {
-        "rating": 5.0,
-        "content": "Insanely fast and perfect for high-end gaming."
-      },
-      {
-        "rating": 4.8,
-        "content": "Handles heavy workloads with ease."
-      }
-    ]
-  },
-  {
-    "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/asus/rog-strix-b450-f/rog-strix-b450-f-1-500x500.jpg",
-    "name": "ASUS ROG Strix B450-F Gaming",
-    "category": "Motherboard",
-    "inStock": 9,
-    "price": 129.99,
-    "desc": "The ASUS ROG Strix B450-F Gaming is a feature-rich gaming motherboard.",
-    "features": "Brand: ASUS, Socket: AM4, Form Factor: ATX, Memory Slots: 4, Max Memory: 64GB",
-    "rating": 4.6,
-    "reviews": [
-      {
-        "rating": 4.0,
-        "content": "Solid motherboard with excellent RGB lighting."
-      },
-      {
-        "rating": 5.0,
-        "content": "Easy to overclock and stable performance."
-      }
-    ]
-  },
-  {
-    "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/msi/mpg-z390-gaming-pro-carbon-ac/mpg-z390-gaming-pro-carbon-ac-1-500x500.jpg",
-    "name": "MSI MPG Z390 Gaming Pro Carbon",
-    "category": "Motherboard",
-    "inStock": 3,
-    "price": 199.99,
-    "desc": "The MSI MPG Z390 Gaming Pro Carbon is a high-end motherboard with great overclocking capabilities.",
-    "features": "Brand: MSI, Socket: LGA 1151, Form Factor: ATX, Memory Slots: 4, Max Memory: 128GB",
-    "rating": 4.7,
-    "reviews": [
-      {
-        "rating": 4.5,
-        "content": "Beautiful design and top-notch audio quality."
-      },
-      {
-        "rating": 5.0,
-        "content": "Handles multiple GPUs and RAM modules without any issues."
-      }
-    ]
-  },
-  {
-    "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/gigabyte/b550-aorus-elite-ax/b550-aorus-elite-ax-2-500x500.jpg",
-    "name": "Gigabyte B550 AORUS Elite",
-    "category": "Motherboard",
-    "inStock": 6,
-    "price": 179.99,
-    "desc": "The Gigabyte B550 AORUS Elite is a reliable motherboard for gamers and content creators.",
-    "features": "Brand: Gigabyte, Socket: AM4, Form Factor: ATX, Memory Slots: 4, Max Memory: 128GB",
-    "rating": 4.5,
-    "reviews": [
-      {
-        "rating": 4.2,
-        "content": "Great value and solid build quality."
-      },
-      {
-        "rating": 4.8,
-        "content": "Easy BIOS setup and stable performance."
-      }
-    ]
-  },
-  {
-    "image": "https://www.startech.com.bd/image/cache/catalog/ram/cosair/vengeance-16gb-ddr4/16gb-ddr4-500x500.jpg",
-    "name": "Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200MHz",
-    "category": "RAM",
-    "inStock": 10,
-    "price": 89.99,
-    "desc": "The Corsair Vengeance LPX is a high-performance DDR4 RAM kit.",
-    "features": "Brand: Corsair, Capacity: 16GB (2x8GB), Speed: 3200MHz",
-    "rating": 4.9,
-    "reviews": [
-      {
-        "rating": 4.8,
-        "content": "Fast and reliable RAM for gaming and multitasking."
-      },
-      {
-        "rating": 5.0,
-        "content": "Works flawlessly with XMP enabled."
-      }
-    ]
-  },
-  {
-    "image": "https://www.startech.com.bd/image/cache/catalog/ram/gskill/ripjaws-v-16gb/ripjaws-v-16gb-1-500x500.jpg",
-    "name": "G.Skill Ripjaws V 32GB (2x16GB) DDR4 3600MHz",
-    "category": "RAM",
-    "inStock": 5,
     "price": 159.99,
-    "desc": "The G.Skill Ripjaws V is a high-speed DDR4 RAM kit for enthusiasts.",
-    "features": "Brand: G.Skill, Capacity: 32GB (2x16GB), Speed: 3600MHz",
-    "rating": 4.7,
-    "reviews": [
-      {
-        "rating": 4.5,
-        "content": "Excellent RAM for gaming and content creation tasks."
-      },
-      {
-        "rating": 4.8,
-        "content": "XMP profile is stable and performs as expected."
-      }
-    ]
-  },
-  {
-    "image": "https://www.startech.com.bd/image/cache/catalog/ram/kingston/fury-beast/fury-beast-01-500x500.jpg",
-    "name": "Kingston HyperX Fury 8GB DDR4 2666MHz",
-    "category": "RAM",
-    "inStock": 2,
-    "price": 49.99,
-    "desc": "The Kingston HyperX Fury is a budget-friendly DDR4 RAM module.",
-    "features": "Brand: Kingston, Capacity: 8GB, Speed: 2666MHz",
-    "rating": 4.2,
-    "reviews": [
-      {
-        "rating": 4.0,
-        "content": "Decent RAM for basic computing tasks."
-      },
-      {
-        "rating": 4.4,
-        "content": "Good value for the price."
-      }
-    ]
-  },
-  {
-    "image": "https://www.startech.com.bd/image/cache/catalog/component/power-supply/corsair/rm750x/rm750x-1-500x500.jpg",
-    "name": "Corsair RM750x 750W 80+ Gold",
-    "category": "PSU",
-    "inStock": 8,
-    "price": 129.99,
-    "desc": "The Corsair RM750x is a high-quality power supply with 80+ Gold efficiency.",
-    "features": "Brand: Corsair, Wattage: 750W, Efficiency: 80+ Gold",
+    "desc": "The NZXT H710 is a sleek and spacious mid-tower ATX case with excellent cable management.",
+    "features": "Brand: NZXT, Motherboard Compatibility: ATX, EATX, mATX, ITX",
     "rating": 4.8,
     "reviews": [
       {
         "rating": 4.7,
-        "content": "Reliable and stable power delivery for high-end systems."
-      },
-      {
-        "rating": 5.0,
-        "content": "Efficient and quiet operation even under load."
-      }
-    ]
-  },
-  {
-    "image": "https://images.evga.com/products/gallery//png/220-G5-0650-X2_LG_1.png",
-    "name": "EVGA SuperNOVA 650 G5 650W 80+ Gold",
-    "category": "PSU",
-    "inStock": 5,
-    "price": 109.99,
-    "desc": "The EVGA SuperNOVA 650 G5 is a reliable and efficient power supply.",
-    "features": "Brand: EVGA, Wattage: 650W, Efficiency: 80+ Gold",
-    "rating": 4.7,
-    "reviews": [
-      {
-        "rating": 4.5,
-        "content": "Great value for a 650W 80+ Gold PSU."
-      },
-      {
-        "rating": 4.8,
-        "content": "Silent operation and clean power output."
-      }
-    ]
-  },
-  {
-    "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/cooler-master/mwe-550-bronze-v2-230v/mwe-550-bronze-v2-230v-01-500x500.jpg",
-    "name": "Cooler Master MWE 550W 80+ Bronze",
-    "category": "PSU",
-    "inStock": 12,
-    "price": 64.99,
-    "desc": "The Cooler Master MWE 550W is a budget-friendly power supply with 80+ Bronze efficiency.",
-    "features": "Brand: Cooler Master, Wattage: 550W, Efficiency: 80+ Bronze",
-    "rating": 4.3,
-    "reviews": [
-      {
-        "rating": 4.2,
-        "content": "Good PSU for mid-range systems and casual gaming."
-      },
-      {
-        "rating": 4.4,
-        "content": "Stable performance with decent build quality."
-      }
-    ]
-  },
-  {
-    "image": "https://www.startech.com.bd/image/cache/catalog/ssd/samsung/970-evo-plus-1tb/970-evo-plus-1tb-500x500.jpg",
-    "name": "Samsung 970 EVO Plus 500GB NVMe SSD",
-    "category": "Storage",
-    "inStock": 15,
-    "price": 119.99,
-    "desc": "The Samsung 970 EVO Plus is a high-performance NVMe SSD for faster data access.",
-    "features": "Brand: Samsung, Capacity: 500GB, Interface: NVMe",
-    "rating": 4.9,
-    "reviews": [
-      {
-        "rating": 4.8,
-        "content": "Blazing fast SSD with excellent read/write speeds."
-      },
-      {
-        "rating": 5.0,
-        "content": "Great choice for gaming and video editing."
-      }
-    ]
-  },
-  {
-    "image": "https://www.startech.com.bd/image/cache/catalog/ssd/western/blue-1tb/wd-blue-1tb-500x500.jpg",
-    "name": "Western Digital Blue 1TB SATA SSD",
-    "category": "Storage",
-    "inStock": 10,
-    "price": 89.99,
-    "desc": "The Western Digital Blue 1TB SATA SSD offers reliable and affordable storage.",
-    "features": "Brand: Western Digital, Capacity: 1TB, Interface: SATA",
-    "rating": 4.7,
-    "reviews": [
-      {
-        "rating": 4.5,
-        "content": "Smooth performance and easy installation."
-      },
-      {
-        "rating": 4.8,
-        "content": "Great upgrade for speeding up boot times."
-      }
-    ]
-  },
-  {
-    "image": "https://www.startech.com.bd/image/cache/catalog/hdd/seagate/2tb-7200rpm/2tb-7200rpm-1-500x500.jpg",
-    "name": "Seagate Barracuda 2TB 7200RPM HDD",
-    "category": "Storage",
-    "inStock": 20,
-    "price": 69.99,
-    "desc": "The Seagate Barracuda is a high-capacity HDD for mass storage needs.",
-    "features": "Brand: Seagate, Capacity: 2TB, RPM: 7200",
-    "rating": 4.5,
-    "reviews": [
-      {
-        "rating": 4.3,
-        "content": "Plenty of storage space at an affordable price"
-      },
-      {
-        "rating": 4.6,
-        "content": "Reliable performance for storing large files."
-      }
-    ]
-  },
-  {
-    "image": "https://www.startech.com.bd/image/cache/catalog/monitor/asus/vg248qe/vg248qe-500x500.jpg",
-    "name": "ASUS VG248QE 24-inch 1080p 144Hz",
-    "category": "Monitor",
-    "inStock": 7,
-    "price": 249.99,
-    "desc": "The ASUS VG248QE is a 24-inch gaming monitor with a 1080p resolution and 144Hz refresh rate.",
-    "features": "Brand: ASUS, Size: 24-inch, Resolution: 1080p, Refresh Rate: 144Hz",
-    "rating": 4.7,
-    "reviews": [
-      {
-        "rating": 4.5,
-        "content": "Smooth gaming experience with low input lag."
-      },
-      {
-        "rating": 4.8,
-        "content": "Excellent value for a 144Hz monitor."
-      }
-    ]
-  },
-  {
-    "image": "https://www.startech.com.bd/image/cache/catalog/monitor/lg-monitor/27gl850-b/27gl850-b-main-500x500.jpg",
-    "name": "LG 27GL850-B 27-inch 1440p 144Hz",
-    "category": "Monitor",
-    "inStock": 5,
-    "price": 349.99,
-    "desc": "The LG 27GL850-B is a 27-inch gaming monitor with a 1440p resolution and 144Hz refresh rate.",
-    "features": "Brand: LG, Size: 27-inch, Resolution: 1440p, Refresh Rate: 144Hz",
-    "rating": 4.9,
-    "reviews": [
-      {
-        "rating": 4.8,
-        "content": "Vibrant colors and smooth gameplay."
-      },
-      {
-        "rating": 5.0,
-        "content": "Great for productivity and gaming."
-      }
-    ]
-  },
-  {
-    "image": "https://m.media-amazon.com/images/I/81awCv2BspL.jpg",
-    "name": "AOC CQ32G1 32-inch 1440p 144Hz",
-    "category": "Monitor",
-    "inStock": 3,
-    "price": 379.99,
-    "desc": "The AOC CQ32G1 is a 32-inch curved gaming monitor with a 1440p resolution and 144Hz refresh rate.",
-    "features": "Brand: AOC, Size: 32-inch, Resolution: 1440p, Refresh Rate: 144Hz",
-    "rating": 4.6,
-    "reviews": [
-      {
-        "rating": 4.5,
-        "content": "Immersive gaming experience with the curved display."
-      },
-      {
-        "rating": 4.7,
-        "content": "Clear image quality and minimal bezels."
-      }
-    ]
-  },
-  {
-    "image": "https://m.media-amazon.com/images/I/51XM+ldQ7JS.jpg",
-    "name": "Razer DeathAdder Elite Gaming Mouse",
-    "category": "Mouse",
-    "inStock": 6,
-    "price": 59.99,
-    "desc": "The Razer DeathAdder Elite is a high-precision gaming mouse with customizable buttons and RGB lighting.",
-    "features": "Brand: Razer, DPI: 16000",
-    "rating": 4.7,
-    "reviews": [
-      {
-        "rating": 4.5,
-        "content": "Comfortable grip and smooth tracking."
-      },
-      {
-        "rating": 4.8,
-        "content": "Responsive and accurate sensor for gaming."
-      }
-    ]
-  },
-  {
-    "image": "https://m.media-amazon.com/images/I/61mpMH5TzkL._AC_UF894,1000_QL80_.jpg",
-    "name": "Logitech G502 HERO High-Performance Gaming Mouse",
-    "category": "Mouse",
-    "inStock": 8,
-    "price": 69.99,
-    "desc": "The Logitech G502 HERO is a versatile gaming mouse with adjustable weights and advanced sensor technology.",
-    "features": "Brand: Logitech, DPI: 16000",
-    "rating": 4.9,
-    "reviews": [
-      {
-        "rating": 4.8,
-        "content": "Customizable buttons and comfortable grip."
-      },
-      {
-        "rating": 5.0,
-        "content": "Accurate tracking for both gaming and productivity."
-      }
-    ]
-  },
-  {
-    "image": "https://m.media-amazon.com/images/I/71gL7gGh3iL._AC_UF894,1000_QL80_.jpg",
-    "name": "Glorious Model O Lightweight Gaming Mouse",
-    "category": "Mouse",
-    "inStock": 10,
-    "price": 49.99,
-    "desc": "The Glorious Model O is a lightweight gaming mouse with a honeycomb design for better airflow and control.",
-    "features": "Brand: Glorious, DPI: 12000",
-    "rating": 4.6,
-    "reviews": [
-      {
-        "rating": 4.5,
-        "content": "Feels great for fast-paced gaming."
-      },
-      {
-        "rating": 4.7,
-        "content": "High-quality build and smooth glide."
-      }
-    ]
-  },
-  {
-    "image": "https://m.media-amazon.com/images/I/613Bmqf9EtL._AC_UF350,350_QL80_.jpg",
-    "name": "SteelSeries Rival 600 Gaming Mouse",
-    "category": "Mouse",
-    "inStock": 4,
-    "price": 79.99,
-    "desc": "The SteelSeries Rival 600 is a premium gaming mouse with dual optical sensors and customizable weights.",
-    "features": "Brand: SteelSeries, DPI: 12000",
-    "rating": 4.8,
-    "reviews": [
-      {
-        "rating": 4.7,
-        "content": "Precise tracking and comfortable grip."
-      },
-      {
-        "rating": 5.0,
-        "content": "Well-built and easy-to-use customization software."
-      }
-    ]
-  },
-  {
-    "image": "https://m.media-amazon.com/images/I/61QOJdt93DL._AC_UF894,1000_QL80_.jpg",
-    "name": "Logitech G PRO X Mechanical Gaming Keyboard",
-    "category": "Keyboard",
-    "inStock": 3,
-    "price": 129.99,
-    "desc": "The Logitech G PRO X is a tenkeyless mechanical gaming keyboard with swappable key switches.",
-    "features": "Brand: Logitech, Key Switches: Swappable (GX Blue, GX Red, GX Brown), Backlight: RGB",
-    "rating": 4.8,
-    "reviews": [
-      {
-        "rating": 4.5,
-        "content": "High-quality mechanical switches and customizable RGB lighting."
+        "content": "Plenty of room for easy building and cable routing."
       },
       {
         "rating": 4.9,
-        "content": "Compact design with excellent build quality."
+        "content": "Clean and minimalist design with tempered glass side panel."
       }
     ]
   },
   {
-    "image": "https://m.media-amazon.com/images/I/71PzW7vZNUL._AC_UF894,1000_QL80_.jpg",
-    "name": "CORSAIR K95 RGB PLATINUM Mechanical Gaming Keyboard",
-    "category": "Keyboard",
-    "inStock": 6,
-    "price": 179.99,
-    "desc": "The CORSAIR K95 RGB PLATINUM is a full-size mechanical gaming keyboard with per-key RGB lighting.",
-    "features": "Brand: CORSAIR, Key Switches: Cherry MX Speed, Backlight: RGB",
-    "rating": 4.9,
-    "reviews": [
-      {
-        "rating": 4.8,
-        "content": "Responsive mechanical switches and customizable macros."
-      },
-      {
-        "rating": 5.0,
-        "content": "Sturdy and luxurious design with a comfortable wrist rest."
-      }
-    ]
-  },
-  {
-    "image": "https://m.media-amazon.com/images/I/81oLMQUj4fL._AC_UF894,1000_QL80_.jpg",
-    "name": "Razer BlackWidow Elite Mechanical Gaming Keyboard",
-    "category": "Keyboard",
-    "inStock": 8,
-    "price": 129.99,
-    "desc": "The Razer BlackWidow Elite is a full-size mechanical gaming keyboard with Razer Green switches.",
-    "features": "Brand: Razer, Key Switches: Razer Green, Backlight: RGB",
-    "rating": 4.7,
-    "reviews": [
-      {
-        "rating": 4.5,
-        "content": "Tactile and clicky mechanical switches for typing and gaming."
-      },
-      {
-        "rating": 4.8,
-        "content": "Durable build and responsive keys."
-      }
-    ]
-  },
-  {
-    "image": "https://m.media-amazon.com/images/I/71XbFCJEvSL.jpg",
-    "name": "HyperX Alloy FPS Pro Mechanical Gaming Keyboard",
-    "category": "Keyboard",
-    "inStock": 10,
-    "price": 69.99,
-    "desc": "The HyperX Alloy FPS Pro is a tenkeyless mechanical gaming keyboard with red LED backlighting.",
-    "features": "Brand: HyperX, Key Switches: Cherry MX Red, Backlight: Red LED",
-    "rating": 4.6,
-    "reviews": [
-      {
-        "rating": 4.5,
-        "content": "Responsive keys and portable design for LAN parties."
-      },
-      {
-        "rating": 4.7,
-        "content": "Simple and reliable mechanical keyboard."
-      }
-    ]
-  },
-  {
-    "image": "https://images-na.ssl-images-amazon.com/images/I/710QnSJpQJL._AC_UL600_SR600,600_.jpg",
-    "name": "SteelSeries Apex Pro TKL Mechanical Gaming Keyboard",
-    "category": "Keyboard",
-    "inStock": 4,
-    "price": 169.99,
-    "desc": "The SteelSeries Apex Pro TKL is a tenkeyless mechanical gaming keyboard with customizable OmniPoint switches.",
-    "features": "Brand: SteelSeries, Key Switches: OmniPoint Adjustable, Backlight: RGB",
-    "rating": 4.8,
-    "reviews": [
-      {
-        "rating": 4.7,
-        "content": "Versatile and customizable key switches."
-      },
-      {
-        "rating": 5.0,
-        "content": "Premium build quality and dynamic RGB lighting."
-      }
-    ]
-  },
-  {
-    "image": "https://m.media-amazon.com/images/I/71gXbDqJMFL._AC_UF894,1000_QL80_.jpg",
-    "name": "Wireless Bluetooth Earbuds",
-    "category": "Others",
-    "inStock": 15,
-    "price": 49.99,
-    "desc": "High-quality wireless earbuds with Bluetooth connectivity.",
-    "features": "Brand: XYZ, Battery Life: Up to 8 hours, Charging Case: Included",
-    "rating": 4.5,
-    "reviews": [
-      {
-        "rating": 4.0,
-        "content": "Clear sound and comfortable fit."
-      },
-      {
-        "rating": 4.5,
-        "content": "Easy pairing with devices."
-      }
-    ]
-  },
-  {
-    "image": "https://m.media-amazon.com/images/I/61mBfpz7vKL._AC_UF894,1000_QL80_.jpg",
-    "name": "Wireless Charging Pad",
-    "category": "Others",
-    "inStock": 20,
-    "price": 29.99,
-    "desc": "Qi-certified wireless charging pad for smartphones.",
-    "features": "Brand: ABC, Compatibility: Qi-enabled devices",
-    "rating": 4.7,
-    "reviews": [
-      {
-        "rating": 4.5,
-        "content": "Fast charging and sleek design."
-      },
-      {
-        "rating": 5.0,
-        "content": "Convenient charging solution."
-      }
-    ]
-  },
-  {
-    "image": "https://m.media-amazon.com/images/I/61T1NBta4uL.jpg",
-    "name": "Smart Home Security Camera",
-    "category": "Others",
+    "image": "https://m.media-amazon.com/images/I/41j8Eac970L.jpg",
+    "name": "Corsair 4000D Airflow Mid-Tower Case",
+    "category": "Casing",
     "inStock": 8,
     "price": 89.99,
-    "desc": "HD smart home security camera with night vision and motion detection.",
-    "features": "Brand: XYZ, Resolution: 1080p, Connectivity: Wi-Fi",
-    "rating": 4.9,
-    "reviews": [
-      {
-        "rating": 4.8,
-        "content": "Excellent video quality and easy setup."
-      },
-      {
-        "rating": 5.0,
-        "content": "Great app integration and reliable performance."
-      }
-    ]
-  },
-  {
-    "image": "https://m.media-amazon.com/images/I/81paJ-+ezJL._AC_UF894,1000_QL80_.jpg",
-    "name": "Portable External Charger",
-    "category": "Others",
-    "inStock": 12,
-    "price": 39.99,
-    "desc": "High-capacity portable charger for smartphones and tablets.",
-    "features": "Brand: PQR, Capacity: 20000mAh, Ports: USB-A, USB-C",
-    "rating": 4.6,
+    "desc": "The Corsair 4000D Airflow is a stylish mid-tower case optimized for cooling performance.",
+    "features": "Brand: Corsair, Motherboard Compatibility: ATX, mATX, ITX",
+    "rating": 4.7,
     "reviews": [
       {
         "rating": 4.5,
-        "content": "Charges multiple devices simultaneously."
+        "content": "Great airflow and cooling options."
       },
       {
-        "rating": 4.7,
-        "content": "Long-lasting power supply for travel."
+        "rating": 4.8,
+        "content": "Cable management is a breeze with the included ties."
       }
     ]
   },
   {
-    "image": "https://m.media-amazon.com/images/I/61t4mpabO+L._AC_UF894,1000_QL80_.jpg",
-    "name": "Gaming Chair",
-    "category": "Others",
+    "image": "https://m.media-amazon.com/images/I/91ZWqN3wloL.jpg",
+    "name": "Fractal Design Meshify C Compact ATX Case",
+    "category": "Casing",
     "inStock": 6,
-    "price": 199.99,
-    "desc": "Ergonomic gaming chair with adjustable armrests and lumbar support.",
-    "features": "Brand: ABC Gaming, Material: PU Leather, Weight Capacity: 300 lbs",
+    "price": 89.99,
+    "desc": "The Fractal Design Meshify C is a compact ATX case with high airflow and a tempered glass side panel.",
+    "features": "Brand: Fractal Design, Motherboard Compatibility: ATX, mATX, ITX",
     "rating": 4.8,
     "reviews": [
       {
         "rating": 4.7,
-        "content": "Comfortable for long gaming sessions."
+        "content": "Excellent airflow and dust filters."
       },
       {
         "rating": 5.0,
-        "content": "Sturdy build and easy assembly."
+        "content": "Compact size without sacrificing cable management."
       }
     ]
   },
   {
-    "image": "https://m.media-amazon.com/images/I/41GJQmKw5ML._AC_UF1000,1000_QL80_.jpg",
-    "name": "Smart Wi-Fi Plug",
-    "category": "Others",
-    "inStock": 18,
-    "price": 19.99,
-    "desc": "Wi-Fi smart plug for remotely controlling devices.",
-    "features": "Brand: XYZ SmartHome, Compatibility: Amazon Alexa, Google Assistant",
-    "rating": 4.4,
+    "image": "https://m.media-amazon.com/images/I/710+HpG7KQL._AC_UF894,1000_QL80_.jpg",
+    "name": "Phanteks Eclipse P400A Digital RGB Mid-Tower Case",
+    "category": "Casing",
+    "inStock": 12,
+    "price": 99.99,
+    "desc": "The Phanteks Eclipse P400A is a mid-tower case with a front mesh panel for optimal airflow and digital RGB lighting.",
+    "features": "Brand: Phanteks, Motherboard Compatibility: ATX, mATX, ITX",
+    "rating": 4.7,
     "reviews": [
       {
-        "rating": 4.2,
-        "content": "Convenient and easy-to-use smart plug."
+        "rating": 4.5,
+        "content": "Attractive RGB lighting effects with customizable patterns."
       },
       {
-        "rating": 4.6,
-        "content": "Works well with voice assistants."
+        "rating": 4.8,
+        "content": "Well-ventilated case for cool component temperatures."
+      }
+    ]
+  },
+  {
+    "image": "https://m.media-amazon.com/images/I/81a8AWjxHvL._AC_UF894,1000_QL80_.jpg",
+    "name": "Cooler Master MasterBox TD500 Mesh Mid-Tower Case",
+    "category": "Casing",
+    "inStock": 10,
+    "price": 79.99,
+    "desc": "The Cooler Master MasterBox TD500 Mesh features a mesh front panel for optimized airflow and an aesthetic design.",
+    "features": "Brand: Cooler Master, Motherboard Compatibility: ATX, mATX, ITX",
+    "rating": 4.6,
+    "reviews": [
+      {
+        "rating": 4.5,
+        "content": "Good value for a case with mesh front panel."
+      },
+      {
+        "rating": 4.7,
+        "content": "Efficient cooling with included pre-installed fans."
       }
     ]
   }

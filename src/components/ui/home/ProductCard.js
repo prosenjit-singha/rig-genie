@@ -5,7 +5,7 @@ import Link from "next/link";
 function ProductCard({ product }) {
   return (
     <Link
-      className="flex flex-row gap-1 shadow-xl card card-compact bg-base-100"
+      className="flex flex-row gap-1 border shadow-xl card card-compact bg-base-100"
       role="link"
       href={`/product/${product._id}`}
     >

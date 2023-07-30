@@ -18,7 +18,7 @@ function ProductCard({ product, builder }) {
 
   return (
     <Link
-      className="flex gap-1 shadow-xl card card-compact bg-base-100 hover:shadow-xl hover:shadow-green-600/50"
+      className="flex gap-1 border shadow-xl card card-compact bg-base-100 hover:shadow-xl hover:shadow-green-600/50"
       role="link"
       href={`/product/${product._id}`}
     >
