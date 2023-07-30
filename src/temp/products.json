@@ -1,5 +1,66 @@
 [
   {
+    "image": "https://m.media-amazon.com/images/I/81H+qksV+vL._AC_UF894,1000_QL80_.jpg",
+    "name": "NVIDIA GeForce RTX 3080",
+    "category": "GPU",
+    "inStock": 5,
+    "price": 699.99,
+    "desc": "The NVIDIA GeForce RTX 3080 is a high-end gaming graphics card with ray tracing capabilities.",
+    "features": "Brand: NVIDIA, VRAM: 10GB GDDR6X, CUDA Cores: 8704",
+    "rating": 4.9,
+    "reviews": [
+      {
+        "rating": 4.8,
+        "content": "Exceptional gaming performance at 4K resolution."
+      },
+      {
+        "rating": 5.0,
+        "content": "Ray tracing enhances visuals in supported games."
+      }
+    ]
+  },
+  {
+    "image": "https://m.media-amazon.com/images/I/71P4+eYukZL._AC_UF894,1000_QL80_.jpg",
+    "name": "AMD Radeon RX 6800 XT",
+    "category": "GPU",
+    "inStock": 8,
+    "price": 649.99,
+    "desc": "The AMD Radeon RX 6800 XT is a high-performance graphics card designed for gaming and content creation.",
+    "features": "Brand: AMD, VRAM: 16GB GDDR6, Stream Processors: 4608",
+    "rating": 4.8,
+    "reviews": [
+      {
+        "rating": 4.7,
+        "content": "Great value for high-resolution gaming."
+      },
+      {
+        "rating": 4.9,
+        "content": "Handles rendering tasks efficiently in creative software."
+      }
+    ]
+  },
+  {
+    "image": "https://m.media-amazon.com/images/I/81B2n4sPkXL._AC_UF1000,1000_QL80_.jpg",
+    "name": "EVGA GeForce GTX 1660 Super",
+    "category": "GPU",
+    "inStock": 12,
+    "price": 249.99,
+    "desc": "The EVGA GeForce GTX 1660 Super is a budget-friendly graphics card ideal for 1080p gaming.",
+    "features": "Brand: EVGA, VRAM: 6GB GDDR6, CUDA Cores: 1408",
+    "rating": 4.5,
+    "reviews": [
+      {
+        "rating": 4.4,
+        "content": "Smooth performance in most modern games at 1080p."
+      },
+      {
+        "rating": 4.6,
+        "content": "Quiet and power-efficient under load."
+      }
+    ]
+  },
+
+  {
     "image": "https://www.startech.com.bd/image/cache/catalog/processor/intel/9700k/i7-9700k-2-500x500.jpg",
     "name": "Intel Core i7-9700K",
     "category": "CPU/Processor",

@@ -11,9 +11,9 @@ import { pick } from "@/helpers/obj.helper";
  * @param {Response} res
  */
 export default async function handler(req, res) {
-  connectDB()
-    .then(() => console.log("Database connection established"))
-    .catch((err) => console.log("Database connection error", err));
+  await connectDB();
+  // .then(() => console.log("Database connection established"))
+  // .catch((err) => console.log("Database connection error", err));
 
   if (req.method === "GET") {
     const filters = pick(req.query, ProductConst.filterableFields);

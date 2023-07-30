@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const categories = [
-  ["cpu.png", "CPU/Processor"],
+  ["cpu.png", "CPU"],
   ["motherboard.png", "Motherboard"],
   ["ram.png", "RAM"],
   ["psu.png", "PSU"],

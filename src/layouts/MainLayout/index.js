@@ -9,7 +9,9 @@ function MainLayout({ children }) {
   return (
     <>
       <Navbar />
-      <main className={`${poppins.className} min-h-[calc(100vh-160px)]`}>
+      <main
+        className={`${poppins.className} min-h-[calc(100vh-160px)] flex flex-col`}
+      >
         {children}
       </main>
       <Footer />

@@ -1,5 +1,5 @@
 export const categories = [
-  "CPU/Processor",
+  "CPU",
   "Motherboard",
   "RAM",
   "PSU",
