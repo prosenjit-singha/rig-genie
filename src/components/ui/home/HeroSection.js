@@ -1,6 +1,7 @@
 import React from "react";
 import animationData from "../../../../public/assets/lottie/person-computer.json";
 import Lottie from "lottie-react";
+import Link from "next/link";
 
 function HeroSection() {
   return (
@@ -16,7 +17,9 @@ function HeroSection() {
           to safety gear, we&#39;ve got you covered!
         </p>
 
-        <button className="btn btn-primary w-fit">Build Your PC Now</button>
+        <Link href="/build-pc" className="btn btn-primary w-fit">
+          Build Your PC Now
+        </Link>
       </div>
       <Lottie
         animationData={animationData}
